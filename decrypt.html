@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descriptografar Mensagem</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/3.0.0-rc.1/jsencrypt.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <h1>Descriptografar Mensagem</h1>
+        <div class="form-group">
+            <label for="encryptedMessage">Digite a mensagem criptografada:</label>
+            <textarea id="encryptedMessage" placeholder="Digite a mensagem criptografada..."></textarea>
+        </div>
+        <div class="form-group">
+            <label for="privateKey">Chave Privada:</label>
+            <textarea id="privateKey" placeholder="Insira a chave privada para descriptografar..."></textarea>
+        </div>
+        <button onclick="decryptMessage()" class="btn decrypt-btn">Descriptografar</button>
+        <div class="form-group">
+            <label for="decryptedMessage">Mensagem Original:</label>
+            <textarea id="decryptedMessage" placeholder="A mensagem original aparecerá aqui..." readonly></textarea>
+        </div>
+
+        <!-- Link para a página de criptografia -->
+        <div class="form-group">
+            <a href="encrypt.html" class="btn encrypt-btn">Voltar para Criptografia</a>
+        </div>
+    </div>
+    <script src="decrypt.js"></script>
+</body>
+</html>
