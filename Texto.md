@@ -1,6 +1,12 @@
 # Criptografia-
 criptografia um texto e descriptografia o mesmo 
 
+
+
+Feito por: William Cardoso Hobold | José Carlos Reche
+
+
+
 Sistema de Criptografia e Descriptografia de Mensagens
 Foi desenvolvido para criar um sistema simples de criptografia e descriptografia de mensagens utilizando chaves públicas e privadas, através da biblioteca JSEncrypt.
 
